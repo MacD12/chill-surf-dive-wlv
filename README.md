@@ -1,73 +1,121 @@
-# Welcome to your Lovable project
+# 🏄 Chill & Surf — Weligama Surf & Dive Experience
 
-## Project info
+A modern, responsive website built using **Next.js** and **Tailwind CSS** for **Chill & Surf**, a Weligama-based surf and dive camp. The project combines sleek UI, fast performance, and a relaxing island aesthetic to attract adventure seekers from around the world.
 
-**URL**: https://lovable.dev/projects/1726f270-2bf7-4fdd-aac4-1feafad2b780
+---
 
-## How can I edit this code?
+## 🌴 Overview
 
-There are several ways of editing your application.
+**Chill & Surf** provides surf lessons, diving experiences, and oceanfront activities in southern Sri Lanka. This web project helps showcase packages, instructors, and the natural charm of the destination while ensuring high user engagement and SEO performance.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1726f270-2bf7-4fdd-aac4-1feafad2b780) and start prompting.
+## ⚙️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Framework:** Next.js 15
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS + Shadcn/UI
+* **UI Components:** Radix UI, Lucide React Icons
+* **Animations:** Framer Motion
+* **Data Fetching:** @tanstack/react-query
+* **Theme System:** next-themes (light/dark mode)
+* **Notifications:** sonner
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* 🏄‍♂️ **Modern UI:** Clean, professional beach aesthetic with responsive layouts.
+* 🌊 **Dynamic Pages:** For Surfing, Diving, Pricing, About, and Contact sections.
+* 💡 **Reusable Components:** Built with Shadcn UI and Radix primitives.
+* 🌗 **Dark/Light Themes:** Handled via next-themes.
+* ⚡ **Fast Performance:** Optimized for Lighthouse and Core Web Vitals.
+* 🔔 **Interactive Toasts:** Via sonner and Radix Toast.
+* 🧭 **SEO Optimized:** Includes semantic HTML and customizable metadata.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📁 Project Structure
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```
+chill-surf-next/
+├── app/                  # App router pages
+│   ├── layout.tsx        # Global layout with ThemeProvider
+│   └── page.tsx          # Homepage rendering App.tsx
+├── components/           # All reusable UI and content components
+│   ├── ui/               # Shadcn-style UI primitives
+│   ├── pages/            # Page-level components
+│   ├── Layout.tsx        # Shared layout
+│   └── App.tsx           # Root React component
+├── lib/                  # Utility functions
+│   └── utils.ts          # cn() helper for class merging
+├── public/               # Static images and media
+│   └── assets/           # Image assets
+├── styles/               # Tailwind + global CSS
+│   └── globals.css
+└── package.json          # Project config and dependencies
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🧩 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/chill-and-surf.git
+
+# Navigate into it
+cd chill-and-surf
+
+# Install dependencies
+npm install
+
+# Start development
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Visit: **[http://localhost:3000](http://localhost:3000)**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🚀 Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Deploy easily with **Vercel**, **Netlify**, or **AWS Amplify**.
 
-## What technologies are used for this project?
+```bash
+npm run build
+npm start
+```
 
-This project is built with:
+For automated CI/CD, connect your repo to [Vercel](https://vercel.com).
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🧠 Developer Notes
 
-Simply open [Lovable](https://lovable.dev/projects/1726f270-2bf7-4fdd-aac4-1feafad2b780) and click on Share -> Publish.
+* Uses Shadcn’s UI pattern for consistent styling.
+* All UI components are modular and reusable.
+* Assets live in `/public/assets` for easy CDN optimization.
+* Compatible with Node.js v18+.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ✍️ Credits
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Developer:** Yesith Themiya Pieris
+**Email:** [themiyapieris33@gmail.com](mailto:themiyapieris33@gmail.com)
+**Framework:** Next.js + Tailwind CSS
+**Design & Concept:** GroBern
+**Hosting:** Vercel / AWS Lightsail
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 📞 Contact
+
+🌐 Website: [https://grobern.com](https://grobern.com)
+📍 Weligama, Sri Lanka
+📧 [themiyapieris33@gmail.com](mailto:themiyapieris33@gmail.com)
+
+---
+
+> *"Ride the waves. Explore the deep. Live the island life with Chill & Surf."*
