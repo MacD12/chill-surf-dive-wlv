@@ -100,21 +100,11 @@ For automated CI/CD, connect your repo to [Vercel](https://vercel.com).
 
 ---
 
-## ✍️ Credits
-
-**Developer:** Yesith Themiya Pieris
-**Email:** [themiyapieris33@gmail.com](mailto:themiyapieris33@gmail.com)
-**Framework:** Next.js + Tailwind CSS
-**Design & Concept:** GroBern
-**Hosting:** Vercel / AWS Lightsail
-
----
-
 ## 📞 Contact
 
-🌐 Website: [https://grobern.com](https://grobern.com)
+🌐 Website: [https://chill&surfsrilanka.com](https://chill&surfsrilanka.com)
 📍 Weligama, Sri Lanka
-📧 [themiyapieris33@gmail.com](mailto:themiyapieris33@gmail.com)
+📧 [info@chill&surfsrilanka.com](mailto:info@chill&surfsrilanka.com)
 
 ---
 
